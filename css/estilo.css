@@ -76,7 +76,6 @@ body {
     box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .7);
     line-height: 35px;
     border: #faedcd solid 2px;
-    display: flex;
     align-items: center;
     transition: all 0.5s;
     transition: 0.5s;
@@ -445,6 +444,10 @@ body {
         padding: 0;
     }
 
+    .cajatop li a{
+        display: flex;
+    }
+
     .navegador {
         display: flex;
         flex-direction: column;
@@ -458,6 +461,7 @@ body {
         width: 90vw;
         margin: 1vw;
         padding: 0;
+        margin: 0;
     }
 
     .logo2 {
