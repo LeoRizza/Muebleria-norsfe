@@ -92,8 +92,8 @@ header {
 }
 
 .encabezado {
-    margin: 1%;
-    text-align: start;
+    display: flex;
+    text-align: center;
     z-index: 2;
     color: $color_3;
     font-weight: 1000;

@@ -72,8 +72,8 @@ header .navegador ul li:hover:after {
 }
 
 .encabezado {
-  margin: 1%;
-  text-align: start;
+  display: flex;
+  text-align: center;
   z-index: 2;
   color: #be2c2c;
   font-weight: 1000;
@@ -424,7 +424,8 @@ body {
   }
   .encabezado {
     text-align: center;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer2 li {
     width: 48vw;
@@ -478,6 +479,8 @@ body {
   }
   .encabezado {
     text-align: center;
+  }
+  .encabezado2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -520,6 +523,12 @@ body {
     padding: 1% 1%;
   }
   .navegador li {
+    padding: 2px;
+  }
+  .cajatop {
+    padding: 1% 1%;
+  }
+  .cajatop li {
     padding: 2px;
   }
   .logo3 {
