@@ -84,6 +84,12 @@ header .navegador ul li:hover:after {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin: 1%;
+  text-align: start;
+  z-index: 2;
+  color: #be2c2c;
+  font-weight: 1000;
+  font-size: 400%;
 }
 
 footer .contacto_footer {
