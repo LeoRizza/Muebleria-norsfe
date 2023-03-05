@@ -71,6 +71,15 @@ header .navegador ul li:hover:after {
   right: 15px;
 }
 
+.encabezado {
+  margin: 1%;
+  text-align: start;
+  z-index: 2;
+  color: #be2c2c;
+  font-weight: 1000;
+  font-size: 400%;
+}
+
 footer .contacto_footer {
   background-color: #8b5e34;
   padding: 0.3% 0.3%;
@@ -140,7 +149,7 @@ footer .footer2 li {
   font-size: 25px;
 }
 
-.bloquecontacto {
+.bloqueContacto {
   display: flex;
   text-align: center;
 }
@@ -224,15 +233,7 @@ h .form-control:focus {
   margin: 2%;
 }
 
-.encabezado {
-  margin-left: 3%;
-  text-align: start;
-  z-index: 2;
-  color: #be2c2c;
-  font-weight: 700;
-}
-
-.logogrande {
+.logoGrande {
   display: flex;
   margin: auto;
   padding: auto;
@@ -360,7 +361,7 @@ h .form-control:focus {
   .botonMio {
     margin: 1% 2%;
   }
-  .bloquecontacto {
+  .bloqueContacto {
     display: flex;
     flex-direction: column;
   }
@@ -471,7 +472,7 @@ h .form-control:focus {
   .encabezado {
     text-align: center;
   }
-  .bloquecontacto {
+  .bloqueContacto {
     display: flex;
     flex-direction: column;
   }
