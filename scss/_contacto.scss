@@ -44,3 +44,11 @@
 .gps {
     margin: 5%;
 }
+
+.botonesContacto {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+}

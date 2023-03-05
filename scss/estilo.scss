@@ -40,28 +40,6 @@ body {
     margin: 2% 5%;
 }
 
-.botonesContacto {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-.cajaBus {
-    margin: 2%;
-}
-
-
-.logoGrande {
-    display: flex;
-    margin: auto;
-    padding: auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .carrusel {
     height: 80vh;
     overflow: hidden;
@@ -109,14 +87,6 @@ body {
     object-position: center;
     object-fit: scale-down;
     width: 100%;
-}
-
-.logo2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    margin-left: 0px;
 }
 
 .botonWhatsApp {

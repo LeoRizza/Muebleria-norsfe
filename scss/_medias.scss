@@ -75,36 +75,52 @@
     }
 
     .cajatop {
-        display: flex;
+        display: block;
         flex-direction: column;
-        padding: 2%;
-        width: 100vw;
+        margin: 0;
+        padding: 1em;
         border-radius: 15px;
-        margin: 2%;
 
         li {
             width: 90vw;
             margin: 1vw;
             padding: 0;
             margin: 0;
-
+            
+            ul {
+                background-color: $background-color_2;
+                padding: 2%;
+                ul li {
+                    display: block;
+                    width: 100%;
+                    margin: 2%;
+                }
+            }
         }
-
     }
 
     .navegador {
-        display: flex;
+        display: block;
         flex-direction: column;
-        padding: 2%;
-        width: 100vw;
+        margin: 0;
+        padding: 1em;
         border-radius: 15px;
-        margin: 2%;
 
         li {
             width: 90vw;
             margin: 1vw;
             padding: 0;
             margin: 0;
+            
+            ul {
+                background-color: $background-color_2;
+                padding: 2%;
+                ul li {
+                    display: block;
+                    width: 100%;
+                    margin: 2%;
+                }
+            }
         }
     }
 
@@ -123,18 +139,8 @@
         margin-right: auto;
     }
 
-    .footer2 {
-        li {
-            width: 48vw;
-            max-width: 15 0px;
-        }
-    }
-
     .redes {
-        width: 48vw;
-        max-width: 160px;
-        margin-right: 4%;
-        margin-left: 1%;
+        max-width: 200px;
     }
 }
 
@@ -143,14 +149,21 @@
         display: flex;
         flex-direction: column;
         padding: 2%;
-        width: 95vw;
         border-radius: 15px;
-        margin: 2%;
 
         li {
-            width: 90vw;
-            margin: 1vw;
+            width: 85vw;
             padding: 0;
+            margin-left: 1%;
+            
+            ul {
+                background-color: $background-color_2;
+                padding: 1%;
+                ul li {
+                    display: block;
+                    margin: 2%;
+                }
+            }
         }
     }
 
@@ -158,21 +171,29 @@
         display: flex;
         flex-direction: column;
         padding: 2%;
-        width: 100vw;
         border-radius: 15px;
-        margin: 2%;
 
         li {
-            width: 90vw;
-            margin: 1vw;
+            width: 75vw;
             padding: 0;
+            margin-left: 1%;
+            
+            ul {
+                background-color: $background-color_2;
+                padding: 1%;
+                ul li {
+                    display: block;
+                    width: 50%;
+                    margin: 2%;
+                }
+            }
         }
     }
 
     .buscador {
-        display: flex;
-        justify-content: center;
-        width: 80vw;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 4%;
     }
 
     .logo2 {
@@ -259,12 +280,6 @@
     .logo2 {
         display: flex;
         justify-content: center;
-    }
-
-    .footer2 {
-        li {
-            max-width: 244px;
-        }
     }
 
     .encabezado {

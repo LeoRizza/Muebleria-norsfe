@@ -18,6 +18,7 @@ header .cajatop li {
   border: #faedcd solid 2px;
   align-items: center;
   transition: all 0.5s;
+  margin-right: 1em;
 }
 header .cajatop li a {
   font-size: 25px;
@@ -72,35 +73,44 @@ header .navegador ul li:hover:after {
 }
 
 .encabezado {
-  display: flex;
   text-align: center;
   z-index: 2;
   color: #be2c2c;
   font-weight: 1000;
-  font-size: 4em;
+  font-size: 4vw;
 }
 
 .encabezado2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin: 1%;
-  text-align: start;
-  z-index: 2;
-  color: #be2c2c;
-  font-weight: 1000;
-  font-size: 400%;
+}
+
+.logoGrande {
+  display: flex;
+  margin: auto;
+  padding: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-left: 0px;
 }
 
 footer .contacto_footer {
   background-color: #8b5e34;
-  padding: 0.3% 0.3%;
   margin: 0;
+  padding: 1%;
 }
 footer .contacto_footer li {
   display: flex;
   flex-direction: column;
-  width: 15vw;
   list-style-type: none;
   padding: 0%;
   border: #faedcd solid 1px;
@@ -121,18 +131,13 @@ footer .redes {
   border-radius: 4px;
   padding-top: 1px;
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.7);
-  margin-right: 5%;
-  margin-bottom: 4%;
-  width: 20vw;
-  max-width: 250px;
-  margin-top: 1%;
   align-items: center;
 }
 footer .redes2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20%;
+  gap: 4vw;
 }
 footer .redes3 {
   background-color: #8b5e34;
@@ -145,13 +150,9 @@ footer .redes3 {
 }
 footer .footer2 {
   margin-top: 2%;
-  padding-left: 1%;
-  display: flex;
-  flex-direction: column;
 }
 footer .footer2 li {
   padding-right: 0;
-  width: 25vw;
 }
 
 .botonMio2 {
@@ -199,6 +200,14 @@ footer .footer2 li {
   margin: 5%;
 }
 
+.botonesContacto {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
 .imgProducto {
   border-radius: 15px;
 }
@@ -231,27 +240,6 @@ body {
   color: #faedcd;
   border: #faedcd solid 2px;
   margin: 2% 5%;
-}
-
-.botonesContacto {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  justify-content: space-between;
-}
-
-.cajaBus {
-  margin: 2%;
-}
-
-.logoGrande {
-  display: flex;
-  margin: auto;
-  padding: auto;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .carrusel {
@@ -299,14 +287,6 @@ body {
   object-position: center;
   object-fit: scale-down;
   width: 100%;
-}
-
-.logo2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  margin-left: 0px;
 }
 
 .botonWhatsApp img {
@@ -394,12 +374,11 @@ body {
     margin: 5%;
   }
   .cajatop {
-    display: flex;
+    display: block;
     flex-direction: column;
-    padding: 2%;
-    width: 100vw;
+    margin: 0;
+    padding: 1em;
     border-radius: 15px;
-    margin: 2%;
   }
   .cajatop li {
     width: 90vw;
@@ -407,19 +386,36 @@ body {
     padding: 0;
     margin: 0;
   }
-  .navegador {
-    display: flex;
-    flex-direction: column;
+  .cajatop li ul {
+    background-color: #8b5e34;
     padding: 2%;
-    width: 100vw;
-    border-radius: 15px;
+  }
+  .cajatop li ul ul li {
+    display: block;
+    width: 100%;
     margin: 2%;
+  }
+  .navegador {
+    display: block;
+    flex-direction: column;
+    margin: 0;
+    padding: 1em;
+    border-radius: 15px;
   }
   .navegador li {
     width: 90vw;
     margin: 1vw;
     padding: 0;
     margin: 0;
+  }
+  .navegador li ul {
+    background-color: #8b5e34;
+    padding: 2%;
+  }
+  .navegador li ul ul li {
+    display: block;
+    width: 100%;
+    margin: 2%;
   }
   .logo2 {
     display: none;
@@ -433,15 +429,8 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .footer2 li {
-    width: 48vw;
-    max-width: 15 0px;
-  }
   .redes {
-    width: 48vw;
-    max-width: 160px;
-    margin-right: 4%;
-    margin-left: 1%;
+    max-width: 200px;
   }
 }
 @media (max-width: 991px) and (min-width: 601px) {
@@ -449,32 +438,45 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2%;
-    width: 95vw;
     border-radius: 15px;
-    margin: 2%;
   }
   .cajatop li {
-    width: 90vw;
-    margin: 1vw;
+    width: 85vw;
     padding: 0;
+    margin-left: 1%;
+  }
+  .cajatop li ul {
+    background-color: #8b5e34;
+    padding: 1%;
+  }
+  .cajatop li ul ul li {
+    display: block;
+    margin: 2%;
   }
   .navegador {
     display: flex;
     flex-direction: column;
     padding: 2%;
-    width: 100vw;
     border-radius: 15px;
-    margin: 2%;
   }
   .navegador li {
-    width: 90vw;
-    margin: 1vw;
+    width: 75vw;
     padding: 0;
+    margin-left: 1%;
+  }
+  .navegador li ul {
+    background-color: #8b5e34;
+    padding: 1%;
+  }
+  .navegador li ul ul li {
+    display: block;
+    width: 50%;
+    margin: 2%;
   }
   .buscador {
-    display: flex;
-    justify-content: center;
-    width: 80vw;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 4%;
   }
   .logo2 {
     display: none;
@@ -543,9 +545,6 @@ body {
   .logo2 {
     display: flex;
     justify-content: center;
-  }
-  .footer2 li {
-    max-width: 244px;
   }
   .encabezado {
     text-align: left;

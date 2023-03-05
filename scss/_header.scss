@@ -19,6 +19,7 @@ header {
             border: #faedcd solid 2px; 
             align-items: center;
             transition: all 0.5s;
+            margin-right: 1em;
 
             a {
                 font-size: 25px;
@@ -92,22 +93,32 @@ header {
 }
 
 .encabezado {
-    display: flex;
     text-align: center;
     z-index: 2;
     color: $color_3;
     font-weight: 1000;
-    font-size: 4em;
+    font-size: 4vw;
 }
 
 .encabezado2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin: 1%;
-    text-align: start;
-    z-index: 2;
-    color: $color_3;
-    font-weight: 1000;
-    font-size: 400%;
+}
+
+.logoGrande {
+    display: flex;
+    margin: auto;
+    padding: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 0px;
 }
