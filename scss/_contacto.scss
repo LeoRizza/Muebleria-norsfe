@@ -1,0 +1,46 @@
+.botonMio2 {
+    color: $color_2;
+    border: #faedcd solid 2px;
+    background-color: $background-color_2;
+    font-size: 25px;
+}
+
+.bloquecontacto {
+    display: flex;
+    text-align: center;
+}
+
+.mensajero {
+    background-color: $background-color_2;
+    padding: 1%;
+    color: $color_2;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.contacta {
+    background-color: $background-color_2;
+    color: $color_2;
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 80px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        color: $color_2;
+        width: 30px;
+        height: 30px;
+    }
+
+    a {
+        color: $color_2;
+        text-decoration: none;
+    }
+}
+
+.gps {
+    margin: 5%;
+}

@@ -1,0 +1,256 @@
+/*---------------------------------------*/
+/*MEDIAS*/
+/*-----------------------------------------*/
+
+@media (max-width: 600px) {
+    .bloquenos {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .nosotros {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .imgnosotros {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 900%;
+    }
+
+    .imgnosotros2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .botonescontacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        margin: 0 20%;
+    }
+
+    .imput2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buscador {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 4%;
+    }
+
+    .botonMio {
+        margin: 1% 2%;
+    }
+
+    .bloquecontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mensajero {
+        display: block;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        padding: 5% 10%;
+        margin: 5%;
+    }
+
+    .contacta {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        padding: 5% 10%;
+        margin: 5%;
+    }
+
+    .cajatop {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        width: 100vw;
+        border-radius: 15px;
+        margin: 2%;
+
+        li {
+            width: 90vw;
+            margin: 1vw;
+            padding: 0;
+            margin: 0;
+
+        }
+
+    }
+
+    .navegador {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        width: 100vw;
+        border-radius: 15px;
+        margin: 2%;
+
+        li {
+            width: 90vw;
+            margin: 1vw;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .logo3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .encabezado {
+        text-align: center;
+    }
+
+    .footer2 {
+        li {
+            width: 48vw;
+            max-width: 15 0px;
+        }
+    }
+
+    .redes {
+        width: 48vw;
+        max-width: 160px;
+        margin-right: 4%;
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 601px) {
+    .cajatop {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        width: 95vw;
+        border-radius: 15px;
+        margin: 2%;
+
+        li {
+            width: 90vw;
+            margin: 1vw;
+            padding: 0;
+        }
+    }
+
+    .navegador {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        width: 100vw;
+        border-radius: 15px;
+        margin: 2%;
+
+        li {
+            width: 90vw;
+            margin: 1vw;
+            padding: 0;
+        }
+    }
+
+    .buscador {
+        display: flex;
+        justify-content: center;
+        width: 80vw;
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .logo3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .encabezado {
+        text-align: center;
+    }
+
+    .bloquecontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mensajero {
+        display: block;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        padding: 5% 10%;
+        margin: 5%;
+    }
+
+    .contacta {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        padding: 5% 10%;
+        margin: 5%;
+    }
+
+    .gps {
+        min-width: 500px;
+    }
+
+    .mapo {
+        min-width: 500px;
+    }
+}
+
+@media (min-width:992px) {
+    .mensajero {
+        padding: 3%;
+    }
+
+    .navega2 {
+        overflow: hidden;
+    }
+
+    .navegador {
+        padding: 1% 1%;
+
+        li {
+            padding: 2px;
+        }
+    }
+
+    .logo3 {
+        display: none;
+    }
+
+    .logo2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer2 {
+        li {
+            max-width: 244px;
+        }
+    }
+
+    .encabezado {
+        text-align: left;
+    }
+}

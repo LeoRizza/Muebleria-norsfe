@@ -1,0 +1,92 @@
+header {
+
+    .cajatop {
+        background-color: $background-color_2;
+        padding-left: 3%;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 97vw;
+        margin-left: 3%;
+
+        li {
+            background-color: $background-color_1;
+            border-radius: 4px;
+            box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .7);
+            line-height: 35px;
+            border: #faedcd solid 2px; 
+            align-items: center;
+            transition: all 0.5s;
+
+            a {
+                font-size: 25px;
+                font-weight: 600;
+                color: $color_1;
+                padding: 1%;
+                position: relative;
+            }
+        }
+
+        ul {
+
+            li {
+                &:hover {
+                    padding-right: 25px;
+                    padding-left: 10px;
+                    background-color: $background-color_2;
+
+                    &:after {
+                        opacity: 1;
+                        right: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .navegador {
+        background-color: $background-color_2;
+        padding-left: 3%;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        li {
+            background-color: $background-color_1;
+            border-radius: 4px;
+            box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .7);
+            line-height: 35px;
+            border: #faedcd solid 2px;
+            align-items: center;
+            transition: all 0.5s;
+            transition: 0.5s;
+
+            a {
+                font-size: 25px;
+                font-weight: 600;
+                color: $color_1;
+                padding: 1%;
+                position: relative;
+            }
+        }
+
+        ul {
+            li {
+                &:hover {
+                    padding-right: 25px;
+                    padding-left: 10px;
+                    background-color: $background-color_2;
+                    
+                    &:after {
+                        opacity: 1;
+                        right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
