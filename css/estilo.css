@@ -73,6 +73,7 @@ header .navegador ul li:hover:after {
 }
 
 .encabezado {
+<<<<<<< HEAD
   text-align: center;
   z-index: 2;
   color: #be2c2c;
@@ -101,6 +102,14 @@ header .navegador ul li:hover:after {
   justify-content: center;
   padding: 15px;
   margin-left: 0px;
+=======
+  margin: 1%;
+  text-align: start;
+  z-index: 2;
+  color: #be2c2c;
+  font-weight: 1000;
+  font-size: 400%;
+>>>>>>> 8432dfa77a2c8e38ef3d6f8b446147ee35e14349
 }
 
 footer .contacto_footer {
@@ -242,6 +251,30 @@ body {
   margin: 2% 5%;
 }
 
+<<<<<<< HEAD
+=======
+.botonesContacto {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.cajaBus {
+  margin: 2%;
+}
+
+.logoGrande {
+  display: flex;
+  margin: auto;
+  padding: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+>>>>>>> 8432dfa77a2c8e38ef3d6f8b446147ee35e14349
 .carrusel {
   height: 80vh;
   overflow: hidden;
@@ -488,11 +521,14 @@ body {
   .encabezado {
     text-align: center;
   }
+<<<<<<< HEAD
   .encabezado2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+=======
+>>>>>>> 8432dfa77a2c8e38ef3d6f8b446147ee35e14349
   .bloqueContacto {
     display: flex;
     flex-direction: column;

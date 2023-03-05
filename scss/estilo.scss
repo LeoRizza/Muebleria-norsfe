@@ -40,6 +40,31 @@ body {
     margin: 2% 5%;
 }
 
+<<<<<<< HEAD
+=======
+.botonesContacto {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.cajaBus {
+    margin: 2%;
+}
+
+
+.logoGrande {
+    display: flex;
+    margin: auto;
+    padding: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+>>>>>>> 8432dfa77a2c8e38ef3d6f8b446147ee35e14349
 .carrusel {
     height: 80vh;
     overflow: hidden;
