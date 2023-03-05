@@ -71,6 +71,21 @@ header .navegador ul li:hover:after {
   right: 15px;
 }
 
+.encabezado {
+  margin: 1%;
+  text-align: start;
+  z-index: 2;
+  color: #be2c2c;
+  font-weight: 1000;
+  font-size: 4em;
+}
+
+.encabezado2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer .contacto_footer {
   background-color: #8b5e34;
   padding: 0.3% 0.3%;
@@ -140,7 +155,7 @@ footer .footer2 li {
   font-size: 25px;
 }
 
-.bloquecontacto {
+.bloqueContacto {
   display: flex;
   text-align: center;
 }
@@ -196,7 +211,7 @@ body {
   color: #faedcd;
 }
 
-h .form-control:focus {
+.form-control:focus {
   border: #faedcd solid 4px;
   box-shadow: 0 0 0 0.15rem #be2c2c;
 }
@@ -224,15 +239,7 @@ h .form-control:focus {
   margin: 2%;
 }
 
-.encabezado {
-  margin-left: 3%;
-  text-align: start;
-  z-index: 2;
-  color: #be2c2c;
-  font-weight: 700;
-}
-
-.logogrande {
+.logoGrande {
   display: flex;
   margin: auto;
   padding: auto;
@@ -360,7 +367,7 @@ h .form-control:focus {
   .botonMio {
     margin: 1% 2%;
   }
-  .bloquecontacto {
+  .bloqueContacto {
     display: flex;
     flex-direction: column;
   }
@@ -417,6 +424,7 @@ h .form-control:focus {
   }
   .encabezado {
     text-align: center;
+    margin: 0;
   }
   .footer2 li {
     width: 48vw;
@@ -470,8 +478,11 @@ h .form-control:focus {
   }
   .encabezado {
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .bloquecontacto {
+  .bloqueContacto {
     display: flex;
     flex-direction: column;
   }

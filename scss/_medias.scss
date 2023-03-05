@@ -51,7 +51,7 @@
         margin: 1% 2%;
     }
 
-    .bloquecontacto {
+    .bloqueContacto {
         display: flex;
         flex-direction: column;
     }
@@ -119,6 +119,7 @@
 
     .encabezado {
         text-align: center;
+        margin: 0;
     }
 
     .footer2 {
@@ -184,9 +185,12 @@
 
     .encabezado {
         text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .bloquecontacto {
+    .bloqueContacto {
         display: flex;
         flex-direction: column;
     }
