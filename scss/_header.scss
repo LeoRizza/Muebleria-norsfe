@@ -1,3 +1,11 @@
+@mixin anclas {
+    font-weight: 600;
+    color: $color_1;
+    padding: 1%;
+    position: relative;
+    text-decoration: none;
+}
+
 header {
 
     .cajatop {
@@ -21,11 +29,8 @@ header {
             transition: all 0.5s;
 
             a {
+                @include anclas;
                 font-size: 25px;
-                font-weight: 600;
-                color: $color_1;
-                padding: 1%;
-                position: relative;
             }
         }
 
@@ -68,11 +73,8 @@ header {
             transition: 0.5s;
 
             a {
+                @include anclas;
                 font-size: 25px;
-                font-weight: 600;
-                color: $color_1;
-                padding: 1%;
-                position: relative;
             }
         }
 

@@ -20,11 +20,12 @@ header .cajatop li {
   transition: all 0.5s;
 }
 header .cajatop li a {
-  font-size: 25px;
   font-weight: 600;
   color: #8b5e34;
   padding: 1%;
   position: relative;
+  text-decoration: none;
+  font-size: 25px;
 }
 header .cajatop ul li {
   margin-right: 0em;
@@ -58,11 +59,12 @@ header .navegador li {
   transition: 0.5s;
 }
 header .navegador li a {
-  font-size: 25px;
   font-weight: 600;
   color: #8b5e34;
   padding: 1%;
   position: relative;
+  text-decoration: none;
+  font-size: 25px;
 }
 header .navegador ul li:hover {
   padding-right: 25px;
@@ -131,12 +133,13 @@ footer .contacto_footer li {
   margin-top: 1%;
 }
 footer .contacto_footer a {
-  text-decoration: none;
-  color: #8b5e34;
   background-color: #faedcd;
-  font-size: 110%;
+  font-size: 1.1em;
   font-weight: 600;
-  padding: 0;
+  color: #8b5e34;
+  padding: 1%;
+  position: relative;
+  text-decoration: none;
 }
 footer .redes {
   background-color: #faedcd;
@@ -243,6 +246,7 @@ footer .footer2 li {
 .imgProducto {
   border-radius: 25px;
   margin: 0.5em 0;
+  width: 20.5vw;
 }
 
 .productosTitulo {
