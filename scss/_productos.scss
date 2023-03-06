@@ -1,7 +1,41 @@
-.Productos {
-    background-color: red;
+.Productos1 {
+    background-color: aqua;
 }
 
 .imgProducto {
-    
+    border-radius: 25px;
+    margin: 0.5em 0;
+}
+
+.productosTitulo {
+    color: $color_1;
+    text-align: center;
+
+    h2 {
+        font-size: 3em;
+        font-weight: 800;
+    }
+}
+
+.filtro {
+    background-color: $background-color_2;
+    color: $color_2;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+
+    input[type="radio"] {
+        -webkit-appearance: none;
+        /* Oculta el círculo de radio en Chrome y Safari */
+        -moz-appearance: none;
+        /* Oculta el círculo de radio en Firefox */
+        appearance: none;
+        /* Oculta el círculo de radio en otros navegadores */
+    }
+
+    label {
+        border: solid $color_2 2px;
+        padding: 0.5em 2em;
+        border-radius: 8px;
+    }
 }

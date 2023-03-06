@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap");
 header .cajatop {
   background-color: #8b5e34;
@@ -207,8 +208,43 @@ footer .footer2 li {
   justify-content: space-between;
 }
 
-.Productos {
-  background-color: red;
+.Productos1 {
+  background-color: aqua;
+}
+
+.imgProducto {
+  border-radius: 25px;
+  margin: 0.5em 0;
+}
+
+.productosTitulo {
+  color: #8b5e34;
+  text-align: center;
+}
+.productosTitulo h2 {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.filtro {
+  background-color: #8b5e34;
+  color: #faedcd;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-around;
+}
+.filtro input[type=radio] {
+  -webkit-appearance: none;
+  /* Oculta el círculo de radio en Chrome y Safari */
+  -moz-appearance: none;
+  /* Oculta el círculo de radio en Firefox */
+  appearance: none;
+  /* Oculta el círculo de radio en otros navegadores */
+}
+.filtro label {
+  border: solid #faedcd 2px;
+  padding: 0.5em 2em;
+  border-radius: 8px;
 }
 
 body {
