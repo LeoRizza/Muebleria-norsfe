@@ -21,13 +21,14 @@
 .contacta {
     background-color: $background-color_2;
     color: $color_2;
-    font-size: 20px;
+    font-size: 1.5em;
     list-style-type: none;
     line-height: 80px;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
 
     svg {
         color: $color_2;

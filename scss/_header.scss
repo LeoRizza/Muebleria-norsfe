@@ -93,18 +93,11 @@ header {
 }
 
 .encabezado {
-<<<<<<< HEAD
     text-align: center;
     z-index: 2;
     color: $color_3;
     font-weight: 1000;
     font-size: 4vw;
-}
-
-.encabezado2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .logoGrande {
@@ -122,12 +115,4 @@ header {
     justify-content: center;
     padding: 15px;
     margin-left: 0px;
-=======
-    margin: 1%;
-    text-align: start;
-    z-index: 2;
-    color: $color_3;
-    font-weight: 1000;
-    font-size: 400%;
->>>>>>> 8432dfa77a2c8e38ef3d6f8b446147ee35e14349
 }

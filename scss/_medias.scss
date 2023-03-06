@@ -100,9 +100,7 @@
     }
 
     .navegador {
-        display: block;
         flex-direction: column;
-        margin: 0;
         padding: 1em;
         border-radius: 15px;
 
@@ -116,9 +114,7 @@
                 background-color: $background-color_2;
                 padding: 2%;
                 ul li {
-                    display: block;
-                    width: 100%;
-                    margin: 2%;
+                    margin: 1%;
                 }
             }
         }
@@ -137,10 +133,15 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        font-size: 50px;
     }
 
     .redes {
+        display: flex;
+        flex-direction: column;
         max-width: 200px;
+        margin: auto;
+        padding: auto;
     }
 }
 
@@ -172,11 +173,14 @@
         flex-direction: column;
         padding: 2%;
         border-radius: 15px;
+        margin-left: 2vw;
+        
 
         li {
             width: 75vw;
             padding: 0;
             margin-left: 1%;
+            width: 90vw;
             
             ul {
                 background-color: $background-color_2;
@@ -210,15 +214,12 @@
 
     }
 
-<<<<<<< HEAD
     .encabezado2 {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
-=======
->>>>>>> 8432dfa77a2c8e38ef3d6f8b446147ee35e14349
     .bloqueContacto {
         display: flex;
         flex-direction: column;
@@ -287,5 +288,10 @@
 
     .encabezado {
         text-align: left;
+    }
+    
+    .redes {
+        max-width: 20vw;
+        margin-bottom: 1%;
     }
 }

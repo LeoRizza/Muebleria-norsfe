@@ -73,18 +73,11 @@ header .navegador ul li:hover:after {
 }
 
 .encabezado {
-<<<<<<< HEAD
   text-align: center;
   z-index: 2;
   color: #be2c2c;
   font-weight: 1000;
   font-size: 4vw;
-}
-
-.encabezado2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .logoGrande {
@@ -102,14 +95,6 @@ header .navegador ul li:hover:after {
   justify-content: center;
   padding: 15px;
   margin-left: 0px;
-=======
-  margin: 1%;
-  text-align: start;
-  z-index: 2;
-  color: #be2c2c;
-  font-weight: 1000;
-  font-size: 400%;
->>>>>>> 8432dfa77a2c8e38ef3d6f8b446147ee35e14349
 }
 
 footer .contacto_footer {
@@ -146,7 +131,7 @@ footer .redes2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 4vw;
+  gap: 2em;
 }
 footer .redes3 {
   background-color: #8b5e34;
@@ -187,13 +172,14 @@ footer .footer2 li {
 .contacta {
   background-color: #8b5e34;
   color: #faedcd;
-  font-size: 20px;
+  font-size: 1.5em;
   list-style-type: none;
   line-height: 80px;
   border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: nowrap;
 }
 .contacta svg {
   color: #faedcd;
@@ -251,8 +237,6 @@ body {
   margin: 2% 5%;
 }
 
-<<<<<<< HEAD
-=======
 .botonesContacto {
   display: flex;
   flex-direction: row;
@@ -274,7 +258,6 @@ body {
   justify-content: center;
 }
 
->>>>>>> 8432dfa77a2c8e38ef3d6f8b446147ee35e14349
 .carrusel {
   height: 80vh;
   overflow: hidden;
@@ -429,9 +412,7 @@ body {
     margin: 2%;
   }
   .navegador {
-    display: block;
     flex-direction: column;
-    margin: 0;
     padding: 1em;
     border-radius: 15px;
   }
@@ -446,9 +427,7 @@ body {
     padding: 2%;
   }
   .navegador li ul ul li {
-    display: block;
-    width: 100%;
-    margin: 2%;
+    margin: 1%;
   }
   .logo2 {
     display: none;
@@ -461,9 +440,14 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 50px;
   }
   .redes {
+    display: flex;
+    flex-direction: column;
     max-width: 200px;
+    margin: auto;
+    padding: auto;
   }
 }
 @media (max-width: 991px) and (min-width: 601px) {
@@ -491,11 +475,13 @@ body {
     flex-direction: column;
     padding: 2%;
     border-radius: 15px;
+    margin-left: 2vw;
   }
   .navegador li {
     width: 75vw;
     padding: 0;
     margin-left: 1%;
+    width: 90vw;
   }
   .navegador li ul {
     background-color: #8b5e34;
@@ -521,14 +507,11 @@ body {
   .encabezado {
     text-align: center;
   }
-<<<<<<< HEAD
   .encabezado2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-=======
->>>>>>> 8432dfa77a2c8e38ef3d6f8b446147ee35e14349
   .bloqueContacto {
     display: flex;
     flex-direction: column;
@@ -584,6 +567,10 @@ body {
   }
   .encabezado {
     text-align: left;
+  }
+  .redes {
+    max-width: 20vw;
+    margin-bottom: 1%;
   }
 }
 
