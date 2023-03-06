@@ -99,6 +99,24 @@ header .navegador ul li:hover:after {
   margin-left: 0px;
 }
 
+.logoGrande {
+  display: flex;
+  margin: auto;
+  padding: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop {
+  padding: 0 0;
+}
+.drop a:hover {
+  background-color: #8b5e34;
+  border-radius: 4px;
+  color: #faedcd;
+}
+
 footer .contacto_footer {
   background-color: #8b5e34;
   margin: 0;
@@ -133,7 +151,10 @@ footer .redes2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 2em;
+  align-content: center;
+  height: 50%;
+  flex-wrap: nowrap;
+  gap: 3em;
 }
 footer .redes3 {
   background-color: #8b5e34;
@@ -207,6 +228,14 @@ footer .footer2 li {
   justify-content: space-between;
 }
 
+.botonesContacto {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
 .Productos1 {
   background-color: aqua;
 }
@@ -263,15 +292,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.drop {
-  padding: 0 0;
-}
-.drop a:hover {
-  background-color: #8b5e34;
-  border-radius: 4px;
-  color: #faedcd;
-}
-
 .form-control:focus {
   border: #faedcd solid 4px;
   box-shadow: 0 0 0 0.15rem #be2c2c;
@@ -288,25 +308,8 @@ body {
   margin: 2% 5%;
 }
 
-.botonesContacto {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  justify-content: space-between;
-}
-
 .cajaBus {
   margin: 2%;
-}
-
-.logoGrande {
-  display: flex;
-  margin: auto;
-  padding: auto;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .carrusel {
@@ -372,8 +375,11 @@ body {
 
 .contenedor_icono svg {
   background-color: transparent;
-  width: 50px;
-  height: 50px;
+  height: 3em;
+  width: 3em;
+}
+.contenedor_icono svg :hover {
+  transform: scale(1.1);
 }
 
 /*---------------------------------------*/

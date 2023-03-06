@@ -1,25 +1,9 @@
-@import "variables";
-@import "header";
-@import "footer";
-@import "contacto";
-@import "productos";
+@import "variables", "header", "footer", "contacto", "productos";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap');
 
 body {
     background-color: $background-color_1;
     font-family: 'Roboto', sans-serif;
-}
-
-.drop {
-    a {
-        &:hover {
-            background-color: $background-color_2;
-            border-radius: 4px;
-            color: $color_2;
-        }
-    }
-
-    padding: 0 0;
 }
 
 .form-control {
@@ -40,26 +24,8 @@ body {
     margin: 2% 5%;
 }
 
-.botonesContacto {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    justify-content: space-between;
-}
-
 .cajaBus {
     margin: 2%;
-}
-
-
-.logoGrande {
-    display: flex;
-    margin: auto;
-    padding: auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .carrusel {
@@ -130,8 +96,12 @@ body {
 .contenedor_icono {
     svg {
         background-color: $background-color_3;
-        width: 50px;
-        height: 50px;
+        height: 3em;
+        width: 3em;
+        
+        :hover {
+            transform: scale(1.1);
+          }
     }
 }
 

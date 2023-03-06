@@ -38,7 +38,10 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 2em;
+        align-content: center;
+        height: 50%;
+        flex-wrap: nowrap;
+        gap: 3em;
     }
 
     .redes3 {
