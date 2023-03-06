@@ -10,7 +10,8 @@ footer {
             list-style-type: none;
             padding: 0%;
             border: #faedcd solid 1px;
-            margin-top: 1%;
+            margin-top: 1%
+
         }
 
         a {
@@ -51,10 +52,12 @@ footer {
     }
 
     .footer2 {
+        padding: 1%;
         margin-top: 2%;
 
         li {
             padding-right: 0;
+            padding-left: 0;
         }
     }
 }
