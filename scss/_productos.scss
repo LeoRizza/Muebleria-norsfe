@@ -40,12 +40,15 @@
         flex-direction: column;
         margin-top: 1em;
 
+        a {
+            font-weight: 800;
+        }
+
         &:hover {
             padding-right: 25px;
             padding-left: 10px;
             background-color: $background-color_1;
             color: $color_1;
-            font-weight: 800;
 
             &:after {
                 opacity: 1;
