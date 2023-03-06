@@ -16,10 +16,9 @@ header {
             border-radius: 4px;
             box-shadow: 0 8px 20px 1px rgba(0, 0, 0, .7);
             line-height: 35px;
-            border: #faedcd solid 2px; 
+            border: #faedcd solid 2px;
             align-items: center;
             transition: all 0.5s;
-            margin-right: 1em;
 
             a {
                 font-size: 25px;
@@ -33,6 +32,8 @@ header {
         ul {
 
             li {
+                margin-right: 0em;
+
                 &:hover {
                     padding-right: 25px;
                     padding-left: 10px;
@@ -81,7 +82,7 @@ header {
                     padding-right: 25px;
                     padding-left: 10px;
                     background-color: $background-color_2;
-                    
+
                     &:after {
                         opacity: 1;
                         right: 15px;

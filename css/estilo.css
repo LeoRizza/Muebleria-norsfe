@@ -18,7 +18,6 @@ header .cajatop li {
   border: #faedcd solid 2px;
   align-items: center;
   transition: all 0.5s;
-  margin-right: 1em;
 }
 header .cajatop li a {
   font-size: 25px;
@@ -26,6 +25,9 @@ header .cajatop li a {
   color: #8b5e34;
   padding: 1%;
   position: relative;
+}
+header .cajatop ul li {
+  margin-right: 0em;
 }
 header .cajatop ul li:hover {
   padding-right: 25px;
@@ -203,8 +205,8 @@ footer .footer2 li {
   justify-content: space-between;
 }
 
-.imgProducto {
-  border-radius: 15px;
+.Productos {
+  background-color: red;
 }
 
 body {
@@ -538,6 +540,9 @@ body {
   .mapo {
     min-width: 500px;
   }
+  .redes {
+    margin-bottom: 2%;
+  }
 }
 @media (min-width: 992px) {
   .mensajero {
@@ -569,8 +574,8 @@ body {
     text-align: left;
   }
   .redes {
-    max-width: 20vw;
-    margin-bottom: 1%;
+    max-width: 15vw;
+    margin-bottom: 2%;
   }
 }
 
