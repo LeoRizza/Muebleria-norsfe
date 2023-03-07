@@ -3,6 +3,11 @@
 /*-----------------------------------------*/
 
 @media (max-width: 600px) {
+
+    .media-nav {
+        position: sticky;
+        top: 0;
+    }
     
     .bloquenos {
         display: flex;

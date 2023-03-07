@@ -270,48 +270,10 @@ footer .footer2 li {
   font-weight: 900;
 }
 
-.productosTitulo {
+.list-group-item.active {
   color: #faedcd;
   background-color: #8b5e34;
-  text-align: center;
-  margin-bottom: 0;
-}
-.productosTitulo h2 {
-  font-size: 3em;
-  font-weight: 800;
-  margin-bottom: 0;
-}
-
-.filtro {
-  background-color: #8b5e34;
-  color: #faedcd;
-  padding: 2em 1em;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.filtro li {
-  display: flex;
-  flex-direction: column;
-  border: solid #faedcd 2px;
-  padding: 0.5em 2em;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 1em;
-}
-.filtro li a {
-  font-weight: 800;
-}
-.filtro li:hover {
-  padding-right: 25px;
-  padding-left: 10px;
-  background-color: #faedcd;
-  color: #8b5e34;
-}
-.filtro li:hover:after {
-  opacity: 1;
-  left: 15px;
+  border-color: #be2c2c;
 }
 
 body {
@@ -425,6 +387,10 @@ body main {
 /*MEDIAS*/
 /*-----------------------------------------*/
 @media (max-width: 600px) {
+  .media-nav {
+    position: sticky;
+    top: 0;
+  }
   .bloquenos {
     display: flex;
     flex-direction: column;
