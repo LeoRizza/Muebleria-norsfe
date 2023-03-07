@@ -3,6 +3,7 @@
 /*-----------------------------------------*/
 
 @media (max-width: 600px) {
+    
     .bloquenos {
         display: flex;
         flex-direction: column;
@@ -146,6 +147,11 @@
 }
 
 @media (max-width: 991px) and (min-width: 601px) {
+    .media-nav {
+        display: flex;
+        flex-direction: row;   
+    }
+    
     .cajatop {
         display: flex;
         flex-direction: column;

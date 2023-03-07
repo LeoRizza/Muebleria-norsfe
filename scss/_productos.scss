@@ -1,11 +1,30 @@
-.Productos1 {
-    background-color: aqua;
+.productos1 {
+    background-color: $background-color_1;
+    border: solid 3px $color_1;
+    color: $color_1;
+    font-size: 1.3em;
+    font-weight: 600;
+    display: flex;
+    width: 15vw;
+    margin-left: 0;
+    min-width: 180px;
+}
+
+.productoNav {
+    display: flex!important;
+    flex-wrap: wrap;
 }
 
 .imgProducto {
-    border-radius: 25px;
-    margin: 0.5em 0;
-    width: 20.5vw;
+    width: 18em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    border: solid $color_1 3px;
+    font-weight: 800;
+    text-align: center;
+        h5 {
+            font-weight: 900;
+        }
 }
 
 .productosTitulo {

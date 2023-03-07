@@ -241,14 +241,33 @@ footer .footer2 li {
   justify-content: space-between;
 }
 
-.Productos1 {
-  background-color: aqua;
+.productos1 {
+  background-color: #faedcd;
+  border: solid 3px #8b5e34;
+  color: #8b5e34;
+  font-size: 1.3em;
+  font-weight: 600;
+  display: flex;
+  width: 15vw;
+  margin-left: 0;
+  min-width: 180px;
+}
+
+.productoNav {
+  display: flex !important;
+  flex-wrap: wrap;
 }
 
 .imgProducto {
-  border-radius: 25px;
-  margin: 0.5em 0;
-  width: 20.5vw;
+  width: 18em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  border: solid #8b5e34 3px;
+  font-weight: 800;
+  text-align: center;
+}
+.imgProducto h5 {
+  font-weight: 900;
 }
 
 .productosTitulo {
@@ -298,6 +317,9 @@ footer .footer2 li {
 body {
   background-color: #faedcd;
   font-family: "Roboto", sans-serif;
+}
+body main {
+  width: 100vw;
 }
 
 .form-control:focus {
@@ -525,6 +547,10 @@ body {
   }
 }
 @media (max-width: 991px) and (min-width: 601px) {
+  .media-nav {
+    display: flex;
+    flex-direction: row;
+  }
   .cajatop {
     display: flex;
     flex-direction: column;
