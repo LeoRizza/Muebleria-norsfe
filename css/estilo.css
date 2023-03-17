@@ -90,7 +90,6 @@ header .navegador ul li:hover:after {
 }
 
 .navbar-toggler {
-  margin: 1em auto;
   border: solid #8b5e34 3px;
 }
 
@@ -525,7 +524,9 @@ body main {
 @media (max-width: 991px) and (min-width: 601px) {
   .media-nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
   }
   .cajatop {
     display: flex;
