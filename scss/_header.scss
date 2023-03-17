@@ -101,6 +101,16 @@ header {
     color: $color_3;
     font-weight: 1000;
     font-size: 4vw;
+    width: 100vw;
+}
+
+.encabezadoNav {
+    width: 100vw;
+}
+
+.navbar-toggler {
+    margin: 1em auto;
+    border: solid $color_1 3px;    
 }
 
 .logoGrande {

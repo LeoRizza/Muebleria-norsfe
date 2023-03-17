@@ -82,6 +82,16 @@ header .navegador ul li:hover:after {
   color: #be2c2c;
   font-weight: 1000;
   font-size: 4vw;
+  width: 100vw;
+}
+
+.encabezadoNav {
+  width: 100vw;
+}
+
+.navbar-toggler {
+  margin: 1em auto;
+  border: solid #8b5e34 3px;
 }
 
 .logoGrande {
